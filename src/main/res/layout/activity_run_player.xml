@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#d5ccf0"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seekBar"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/music"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btPlay"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btPlay"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pause"
+        android:layout_above="@+id/back"/>
+
+    <Button
+        android:id="@+id/btPause"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/play"
+        android:layout_above="@+id/back"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btPv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toLeftOf="@+id/btPlay"
+        android:layout_above="@+id/back"
+        android:background="@drawable/skipbackward"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:id="@+id/btNxt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/btPlay"
+        android:layout_above="@+id/back"
+        android:background="@drawable/skipforward"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/shape3"
+        android:text="BACK"
+        android:textColor="#ffffff" />
+
+
+</RelativeLayout>

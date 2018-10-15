@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">RunningTrack</string>
+    <string name="title_activity_maps">Running</string>
+    <string name="km">m</string>
+    <string name="title_activity_result">Running Result</string>
+    <string name="title_activity_try">Running</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_detail">History</string>
+    <string name="dialog_delete_msg">Do you want to delete this record?</string>
+    <string name="dialog_delete_title">Delete a history record</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="label_amount">Amount</string>
+    <string name="amount">$100000.00</string>
+    <string name="label_years">Years</string>
+    <string name="years">30</string>
+    <string name="label_rate">Interest Rate</string>
+    <string name="rate">3.5%</string>
+    <string name="label_monthly_payment">Monthly Payment</string>
+    <string name="monthly_payment">$123.45</string>
+    <string name="label_total_payment">Total Payment</string>
+    <string name="total_payment">$123456.78</string>
+    <string name="modify_data">Modify Data</string>
+    <string name="ten">10</string>
+    <string name="fifteen">15</string>
+    <string name="thirty">30</string>
+    <string name="amountDecimal">100000.00</string>
+    <string name="rateDecimal">.034</string>
+    <string name="done">Done</string>
+    <string name="title_activity_player">Player</string>
+    <string name="play1"> Before </string>
+    <string name="play2"> Back </string>
+    <string name="play3"> || </string>
+    <string name="play4"> Ahead </string>
+    <string name="play5"> Next </string>
+
+</resources>

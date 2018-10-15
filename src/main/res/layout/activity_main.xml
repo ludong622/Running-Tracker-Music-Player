@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#d5ccf0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:text="Distance(KM)"
+            android:padding="10dp"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:hint="KM"
+            android:id="@+id/distance"
+            android:textSize="20dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Duration(hour)"
+            android:padding="10dp"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:hint="HOUR"
+            android:id="@+id/duration"
+            android:textSize="20dp"/>
+    </TableRow>
+
+
+
+    <!-- red line -->
+    <View
+        android:layout_height="5dp"
+        android:background="#FF0000"
+        android:layout_marginTop="20dp"/>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:text="Pace(Hour per KM)"
+            android:padding="10dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:hint="Hours per KM"
+            android:id="@+id/pace"
+            android:textSize="20dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Speed(KM per Hour)"
+            android:padding="10dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:hint="KM per Hour"
+            android:id="@+id/speed"
+            android:textSize="20dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="50dp">
+
+        <Button
+            android:layout_width="29dp"
+            android:layout_height="100dp"
+            android:background="@drawable/shape2"
+            android:onClick="modifyData"
+            android:text="Calculate" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Back"
+            android:onClick="goHomepage"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape3"/>
+    </TableRow>
+
+</TableLayout>

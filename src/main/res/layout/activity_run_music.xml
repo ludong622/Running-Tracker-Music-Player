@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#d5ccf0"
+    android:layout_height="match_parent">
+
+
+    <ListView
+        android:id="@+id/lvPlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/back"/>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/shape3"
+        android:onClick="Home"
+        android:text="Back"
+        android:textColor="#ffffff"/>
+</RelativeLayout>
